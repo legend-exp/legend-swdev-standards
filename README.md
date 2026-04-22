@@ -35,19 +35,3 @@ group:
       - source: .pre-commit-config.yaml
         dest: .pre-commit-config.yaml
 ```
-
-## Required setup (one-time, by org admin)
-
-A fine-grained GitHub PAT named `LEGEND_SWDEV_STANDARDS_SYNC` must be set as an
-organization secret on `legend-exp`. It needs `contents: write` and
-`pull-requests: write` permissions on all target repositories within the org.
-
-## Automerge
-
-Sync PRs are labeled `standards-sync`. To auto-merge them in a target repo:
-
-- Enable **Allow auto-merge** in the target repo's settings.
-- Ensure at least one required status check is configured in branch protection.
-- Call `gh pr merge --auto --squash <PR_NUMBER>` in a workflow, or use
-  [GitHub's native automerge](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/automatically-merging-a-pull-request)
-  triggered by the `standards-sync` label.
