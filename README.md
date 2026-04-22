@@ -19,7 +19,7 @@ automatically to subscriber repositories via pull requests.
 Open a pull request that adds your repository to the relevant group(s) in
 [`.github/sync.yml`](.github/sync.yml). Each entry specifies:
 
-- **`source`** — path to the file in this repository
+- **`source`** — path under `files/` in this repository
 - **`dest`** — path where the file should be placed in your repository (rename
   freely)
 
@@ -30,8 +30,8 @@ group:
   - repos: |
       legend-exp/my-repo
     files:
-      - source: AI_POLICY.md
+      - source: files/AI_POLICY.md
         dest: AI_POLICY.md
-      - source: .pre-commit-config.yaml
+      - source: files/.pre-commit-config.yaml
         dest: .pre-commit-config.yaml
 ```

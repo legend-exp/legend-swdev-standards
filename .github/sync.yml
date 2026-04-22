@@ -12,5 +12,5 @@ group:
   - repos: |
       legend-exp/legend-simflow
     files:
-      - source: AI_POLICY.md
+      - source: files/AI_POLICY.md
         dest: AI_POLICY.md
