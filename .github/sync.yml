@@ -1,0 +1,16 @@
+# Subscriber registry for legend-swdev-standards
+#
+# Each group maps a set of source files (paths in this repo) to their
+# destination paths/names in one or more target repositories.
+#
+# To subscribe a new repo: open a PR adding it to the relevant group(s).
+# Files are renamed at the destination by setting dest to a different path.
+#
+# Docs: https://github.com/BetaHuhn/repo-file-sync-action
+
+group:
+  - repos: |
+      legend-exp/legend-simflow
+    files:
+      - source: AI_POLICY.md
+        dest: AI_POLICY.md
