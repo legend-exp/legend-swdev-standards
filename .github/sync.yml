@@ -10,7 +10,72 @@
 
 group:
   - repos: |
+      legend-exp/Juleana.jl
+      legend-exp/Juleanita.jl
+      legend-exp/LUNAR200
+      legend-exp/LegendDSP.jl
+      legend-exp/LegendDataManagement.jl
+      legend-exp/LegendDataTypes.jl
+      legend-exp/LegendDetectorDesign.jl
+      legend-exp/LegendEventAnalysis.jl
+      legend-exp/LegendGeSim.jl
+      legend-exp/LegendHDF5IO.jl
+      legend-exp/LegendJuliaRegistry
+      legend-exp/LegendMachineLearning.jl
+      legend-exp/LegendMakie.jl
+      legend-exp/LegendOpticalFits.jl
+      legend-exp/LegendSpecFits.jl
+      legend-exp/LegendTestData.jl
+      legend-exp/ZeroNuFit.jl
+      legend-exp/dspeed
+      legend-exp/g4simple
+      legend-exp/hades-dataflow
+      legend-exp/hades-dataflow-config
+      legend-exp/hades-metadata
+      legend-exp/leds
+      legend-exp/legend-analysis-toolkit
+      legend-exp/legend-daq2lh5
+      legend-exp/legend-data-mgt
+      legend-exp/legend-data-monitor
+      legend-exp/legend-dataflow
+      legend-exp/legend-dataflow-config
+      legend-exp/legend-dataflow-overrides
+      legend-exp/legend-dataflow-scripts
+      legend-exp/legend-datasets
+      legend-exp/legend-detectors
+      legend-exp/legend-hardware-config
+      legend-exp/legend-jldataflow-config
+      legend-exp/legend-jldataflow-overrides
+      legend-exp/legend-lh5io
+      legend-exp/legend-metadata
+      legend-exp/legend-monitor-dashboard
+      legend-exp/legend-psd
+      legend-exp/legend-pydataobj
+      legend-exp/legend-pygeom-hades
+      legend-exp/legend-pygeom-hpges
+      legend-exp/legend-pygeom-l1000
+      legend-exp/legend-pygeom-l200
+      legend-exp/legend-pygeom-optics
+      legend-exp/legend-pygeom-tools
       legend-exp/legend-simflow
+      legend-exp/legend-simflow-config
+      legend-exp/legend-swdev-scripts
+      legend-exp/legendexp_legend-pjbase_img
+      legend-exp/legendexp_legend-pjsoftware_img
+      legend-exp/legendexp_remage-base_img
+      legend-exp/llamaDAQ
+      legend-exp/pyfcutils
+      legend-exp/pygama
+      legend-exp/pygeom-gempi
+      legend-exp/pygeom-scarf
+      legend-exp/pylegendmeta
+      legend-exp/pylegendtestdata
+      legend-exp/reboost
+      legend-exp/remage
+      legend-exp/revertex
+      legend-exp/scarf-dataflow
+      legend-exp/scarf-metadata
+      legend-exp/teststand-metadata
     files:
       - source: files/AI_POLICY.md
         dest: AI_POLICY.md
