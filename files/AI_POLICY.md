@@ -16,8 +16,8 @@ compliance with this policy is unclear.
 
 AI agents must not be listed as co-authors of commits (e.g., via
 `Co-authored-by:` trailers) or pull requests. Instead a trailer should be added
-Assisted-by: LLM [TOOL1] [TOOL2]
-[TOOL1] [TOOL2] are optional specialized analysis tools used (e.g., coccinelle, sparse, smatch, clang-tidy)
+Assisted-by: LLM [TOOL1] [TOOL2] [TOOL1] [TOOL2] are optional specialized
+analysis tools used (e.g., coccinelle, sparse, smatch, clang-tidy)
 
 Basic development tools (git, gcc, make, editors) should not be listed.
 
