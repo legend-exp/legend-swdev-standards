@@ -15,7 +15,15 @@ Contributions may be rejected if their provenance, licensing status, or
 compliance with this policy is unclear.
 
 AI agents must not be listed as co-authors of commits (e.g., via
-`Co-authored-by:` trailers) or pull requests.
+`Co-authored-by:` trailers) or pull requests. Instead a trailer should be added
+Assisted-by: LLM [TOOL1] [TOOL2]
+[TOOL1] [TOOL2] are optional specialized analysis tools used (e.g., coccinelle, sparse, smatch, clang-tidy)
+
+Basic development tools (git, gcc, make, editors) should not be listed.
+
+Example:
+
+Assisted-by: LLM coccinelle sparse
 
 If a pull request is opened by an AI agent a checkbox should be included at the
 top of the pull request body stating:
