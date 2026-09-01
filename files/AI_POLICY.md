@@ -25,8 +25,8 @@ Example:
 
 Assisted-by: LLM coccinelle sparse
 
-If a pull request is opened by an AI agent a checkbox should be included at the
-top of the pull request body stating:
+If a pull request is opened by an AI agent, a checkbox should be included at the
+top of the pull request body (before any other text) stating:
 
 - [ ] I have reviewed all the code in this pull request and deem it of the
       standard expected for this project.
