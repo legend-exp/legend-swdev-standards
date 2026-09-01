@@ -16,8 +16,8 @@ compliance with this policy is unclear.
 
 AI agents should not be listed as co-authors of commits or pull requests.
 
-If a pull request is opened by an AI agent a checkbox should be included in the 
-pull request body stating: I have reviewed all the code in this pull request and 
+If a pull request is opened by an AI agent a checkbox should be included in the
+pull request body stating: I have reviewed all the code in this pull request and
 deem it of the standard expected for this project.
 
 This policy is procedural and supplements, but does not modify, any applicable
