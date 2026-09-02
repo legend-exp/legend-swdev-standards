@@ -11,22 +11,22 @@ submission.
 Substantial AI-assisted contributions should be disclosed in pull requests or
 equivalent contribution channels.
 
-Contributions may be rejected if their provenance, licensing status, or
-compliance with this policy is unclear.
-
 AI agents must not be listed as co-authors of commits (e.g., via
 `Co-authored-by:` trailers) or pull requests. Instead a trailer should be added
 Assisted-by: LLM [AGENT1] [AGENT2]
 
 Example:
 
-Assisted-by: LLM Claude opus 4.1
+Assisted-by: LLM Claude Opus 4.1
 
 If a pull request is opened by an AI agent, a checkbox should be included at the
 top of the pull request body (before any other text) stating:
 
 - [ ] I have reviewed all the code in this pull request and deem it of the
       standard expected for this project.
+      
+Contributions may be rejected if their provenance, licensing status, or
+compliance with this policy is unclear.
 
 This policy is procedural and supplements, but does not modify, any applicable
 license, DCO, CLA, or other contribution requirements for this project.
