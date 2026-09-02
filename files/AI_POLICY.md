@@ -24,7 +24,7 @@ top of the pull request body (before any other text) stating:
 
 - [ ] I have reviewed all the code in this pull request and deem it of the
       standard expected for this project.
-      
+
 Contributions may be rejected if their provenance, licensing status, or
 compliance with this policy is unclear.
 
