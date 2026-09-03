@@ -13,7 +13,7 @@ equivalent contribution channels.
 
 AI agents must not be listed as co-authors of commits (e.g., via
 `Co-authored-by:` trailers) or pull requests. Instead a trailer should be added
-Assisted-by: LLM [AGENT1] [AGENT2]
+`Assisted-by: Generative AI`
 
 Example:
 
