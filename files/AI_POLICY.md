@@ -13,11 +13,7 @@ equivalent contribution channels.
 
 AI agents must not be listed as co-authors of commits (e.g., via
 `Co-authored-by:` trailers) or pull requests. Instead a trailer should be added
-`Assisted-by: Generative AI`
-
-Example:
-
-Assisted-by: LLM Claude Opus 4.1
+`Assisted-by: Generative AI`.
 
 If a pull request is opened by an AI agent, a checkbox should be included at the
 top of the pull request body (before any other text) stating:
