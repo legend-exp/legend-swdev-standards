@@ -64,7 +64,6 @@ group:
       legend-exp/legendexp_legend-pjsoftware_img
       legend-exp/legendexp_remage-base_img
       legend-exp/llamaDAQ
-      legend-exp/pyfcutils
       legend-exp/pygama
       legend-exp/pygeom-gempi
       legend-exp/pygeom-scarf
